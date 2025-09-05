@@ -8,13 +8,16 @@
 
 <h2>The FastAPI server exposes the following endpoints. You can see the full interactive documentation at http://127.0.0.1:8000/docs.</h2>  
 <ul>
-  <li>POST /check-document/
+  <h3>POST /check-document/</h3>
+  <li>
       Payload: multipart/form-data with a .pdf or .docx file.
       Response: A JSON object containing the detailed analysis report.\
   </li>
-  <li>POST /fix-document/
+  <h3>POST /fix-document/</h3>
+  <li>
       Payload: A JSON object with the original text: {"text": "..."}.
       Response: The rewritten document as a downloadable .docx file.
   </li>
 </ul>
+
 
