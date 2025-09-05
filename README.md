@@ -1,4 +1,4 @@
-<h2>✨ Project Features</h2>
+<h2>Project Features</h2>
 <h3>File Uploads</h3>
   <p>Accepts both .pdf and .docx document formats, providing flexibility for different user needs.</p>
 <h3>Comprehensive Analysis</h3>
@@ -16,7 +16,17 @@
   <p>A simple and responsive user interface built with Streamlit, ensuring an intuitive and user-friendly experience.</p>
 <h3>Robust API</h3>
   <p>A backend powered by FastAPI with Pydantic data validation and automatic, interactive API documentation.</p>
-  
+<hr>
+<h2>Tech Stack</h2>
+  <ul>
+    <li>Backend: FastAPI, Uvicorn</li>
+    <li>Frontend: Streamlit</li>
+    <li>AI & NLP: Groq SDK, OpenAI SDK, language-tool-python</li>
+    <li>Data Validation: Pydantic</li>
+    <li>Document Parsing: python-docx, PyMuPDF</li>
+    <li>Core Language: Python 3.10+</li>
+</ul>
+<hr>
 <h2>Python environment setup</h2>
 <ul>
   <li>create Python virtual env and install all the dependecies from the requirements.txt</li>
@@ -24,7 +34,7 @@
   <li>run the fastapi server in terminal 1 by - uvicorn main:app --reload</li>
   <li>run the streamlit app in terminal 2 by -> streamlit run .\streamlitapp.py</li>
 </ul>
-
+<hr>
 <h2>The FastAPI server exposes the following endpoints.</h2>  
 <ul>
   <h3>POST /check-document/</h3>
@@ -38,6 +48,7 @@
       Response: The rewritten document as a downloadable .docx file.
   </li>
 </ul>
+
 
 
 
