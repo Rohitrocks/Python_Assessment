@@ -21,7 +21,7 @@
   <ul>
     <li>Backend: FastAPI, Uvicorn</li>
     <li>Frontend: Streamlit</li>
-    <li>AI & NLP: Groq SDK, OpenAI SDK, language-tool-python</li>
+    <li>AI & NLP: Groq(llama and gemma models) , language-tool-python</li>
     <li>Data Validation: Pydantic</li>
     <li>Document Parsing: python-docx, PyMuPDF</li>
     <li>Core Language: Python 3.10+</li>
@@ -56,6 +56,7 @@
       Response: The rewritten document as a downloadable .docx file.
   </li>
 </ul>
+
 
 
 
