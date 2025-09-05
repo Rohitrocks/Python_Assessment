@@ -27,6 +27,15 @@
     <li>Core Language: Python 3.10+</li>
 </ul>
 <hr>
+<h2>Test Repots</h2>
+  <p>Documents used for testing are also available in the src->test-reports folder</p>
+  <p>Test the agent for .pdf and .docx documents to check the adherence with English guidelines</p>
+  <P>Analysis report screenshot
+    <img width="940" height="361" alt="image" src="https://github.com/user-attachments/assets/8907ccd8-865b-453f-9518-f59632b63d74" />
+  </P>
+  <p>Issues in the documents
+    <img width="940" height="379" alt="image" src="https://github.com/user-attachments/assets/7167a84c-00bc-480f-b821-a4c62d74ff78" />
+  </p>
 <h2>Python environment setup</h2>
 <ul>
   <li>create Python virtual env and install all the dependecies from the requirements.txt</li>
@@ -48,6 +57,7 @@
       Response: The rewritten document as a downloadable .docx file.
   </li>
 </ul>
+
 
 
 
