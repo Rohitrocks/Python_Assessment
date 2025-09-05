@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+pydantic
+python-docx
+pymupdf
+language_tool_python
+langchain
+langchain-community
+langchain-huggingface
+streamlit
+spacy
+groq
+python-multipart

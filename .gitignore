@@ -1,0 +1,7 @@
+*venv
+*.env/
+__pycache__/
+app2.py
+app3.py
+appbkp.py
+.env
